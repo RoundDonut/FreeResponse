@@ -1,0 +1,17 @@
+package compile;
+
+public class q1Compile
+{
+	public static int numDivisors(int inputVal)
+	{
+		int count=0;
+		for(int k = 1; k <= inputVal; k++)
+		{
+		if (/* condition */) 
+			{
+				count++;	
+			}
+		}
+		return count;
+	}
+}

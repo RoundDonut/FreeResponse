@@ -47,7 +47,7 @@ public class InsertCompile
 		else
 		{
 			questionFile.set(commentLineIndex(), InsertFile.outputString);
-			FileWriter writer = new FileWriter("C:/Users/Shan/Desktop/TestQuestion/src/compile/q1Compile.java");             
+			FileWriter writer = new FileWriter("/Users/1901209/Desktop/FreeResponse/TestQuestion/src/compile/q1Compile.java");             
 			for(String str: questionFile)                                                                      
 			{
 				writer.write(str + System.lineSeparator());

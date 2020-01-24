@@ -55,6 +55,7 @@ public class ReadFile {
 			if(DisplayFile.codeContent.get(i).contains("/*"))
 			{
 				x = DisplayFile.codeContent.get(i);
+				System.out.println(x);
 				commentLineIndex = i;
 			}
 		}

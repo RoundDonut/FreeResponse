@@ -1,14 +1,14 @@
 package compile;
 
 public class CompileRun {
-	public static void run()	
+	public static void run()
 	{
-		try
+		try 
 		{
 			//ERROR HERE
 			int correctAnswer = q1Compile.numDivisors(10);
 			System.out.println("Running try");
-			System.out.println("Correct Answer:" + correctAnswer);
+			//System.out.println("Correct Answer:" + correctAnswer);
 			
 			if(correctAnswer == 4)
 			{

@@ -11,7 +11,7 @@ public class q1Compile
 		int count=0;
 		for(int k = 1; k <= inputVal; k++)
 		{
-		if (/* condition */) 
+		if (hello) 
 			{
 				count++;	
 			}

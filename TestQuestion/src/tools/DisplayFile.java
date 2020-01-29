@@ -2,6 +2,8 @@ package tools;
 
 import java.util.ArrayList;
 
+import general.Main;
+
 public class DisplayFile {
 	
 	public static ArrayList<String> questionContent = new ArrayList<String>();
@@ -9,7 +11,7 @@ public class DisplayFile {
 	
 	public static void question()
 	{
-		questionContent = ReadFile.run("/Users/1901209/Desktop/FreeResponse/TestQuestion/src/tools/q1question.txt");
+		questionContent = ReadFile.run(Main.q1questionURL);
 		//Displaying file content from ReadFile ArrayList
 		for(int i = 0; i < questionContent.size(); i++)
 		{
@@ -19,7 +21,7 @@ public class DisplayFile {
 	}
 	public static void code()
 	{	
-		codeContent = ReadFile.run("/Users/1901209/Desktop/FreeResponse/TestQuestion/src/tools/q1code.txt");
+		codeContent = ReadFile.run(Main.q1codeURL);
 		//Displaying file content from ReadFile ArrayList
 		for(int i = 0; i < codeContent.size(); i++)
 		{

@@ -1,4 +1,0 @@
-Consider the follow incomplete method, which is 
-intended to return the number of integers that 
-evenly divide the integer 'inputVal'. Assume 
-that 'inputVal' is greater than 0.
